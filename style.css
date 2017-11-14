@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #365899;
+    box-sizing: border-box;
+}
+img{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+#select_value {
+    width: 130px;
+    height: 38px;
+    border-radius: 6px;
+    font-size: 18px;
+    color:#365899;
+}
+#input_search{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+#hidden {
+    background: red;
+    position: absolute;
+    top: 66px;
+    left: 148px;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+button {
+    height: 36px;
+    width: 100px;
+    margin: 21px;
+    border-radius: 7px;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(177, 28, 20);
+    background: -moz-linear-gradient(90deg, rgb(177, 28, 20) 39%, rgb(255, 20, 20) 98%);
+    background: -webkit-linear-gradient(90deg, rgb(177, 28, 20) 39%, rgb(255, 20, 20) 98%);
+    background: -o-linear-gradient(90deg, rgb(177, 28, 20) 39%, rgb(255, 20, 20) 98%);
+    background: -ms-linear-gradient(90deg, rgb(177, 28, 20) 39%, rgb(255, 20, 20) 98%);
+    background: linear-gradient(0deg, rgb(177, 28, 20) 39%, rgb(255, 20, 20) 98%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+button:hover{
+    height: 36px;
+    width: 100px;
+    margin: 21px;
+    border-radius: 7px;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(236, 33, 33, 0.5);
+    background: -moz-linear-gradient(90deg, rgb(245, 41, 30) 39%, rgb(245, 41, 30) 98%);
+    background: -webkit-linear-gradient(90deg, rgb(245, 41, 30) 39%, rgb(245, 41, 30) 98%);
+    background: -o-linear-gradient(90deg, rgb(245, 41, 30) 39%, rgb(245, 41, 30) 98%);
+    background: -ms-linear-gradient(90deg, rgb(245, 41, 30) 39%, rgb(245, 41, 30) 98%);
+    background: linear-gradient(0deg, rgb(245, 41, 30) 39%, rgb(245, 41, 30) 98%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
